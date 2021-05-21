@@ -1,4 +1,3 @@
-import keep_alive
 import description as i
 
 import os
@@ -67,8 +66,5 @@ async def comp(ctx, *args):
         await ctx.send(
                 f'https://www.cemc.uwaterloo.ca/contests/past_contests/{args[1]}/{args[1]}EuclidSolution.pdf'
                 )
-
-
-keep_alive.keep_alive()
 
 bot.run(os.getenv('TOKEN'))
