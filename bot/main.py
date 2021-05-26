@@ -8,7 +8,7 @@ import discord
 from discord.utils import get
 from discord.ext import commands
 
-bot_description = "bonjour je suis le meilleur bot"
+bot_description = "Engsci 2T5!! I am your Boundless bot."
 bot = commands.Bot(command_prefix='$', description=bot_description)
 
 
